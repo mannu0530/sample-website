@@ -3,3 +3,7 @@
 192.168.65.1 - - [22/Aug/2025:11:08:23 +0000] "GET /script.js HTTP/1.1" 200 2981 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" "-"
 192.168.65.1 - - [22/Aug/2025:11:08:23 +0000] "GET /favicon.ico HTTP/1.1" 404 1776 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" "-"
 192.168.65.1 - - [22/Aug/2025:11:08:25 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" "-"
+103.157.168.155 - - [27/Aug/2025:04:07:00 +0000] "GET / HTTP/1.1" 200 1776 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" "-"
+103.157.168.155 - - [27/Aug/2025:04:07:01 +0000] "GET /styles.css HTTP/1.1" 200 2110 "http://107.20.211.209/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" "-"
+103.157.168.155 - - [27/Aug/2025:04:07:01 +0000] "GET /script.js HTTP/1.1" 200 2981 "http://107.20.211.209/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" "-"
+103.157.168.155 - - [27/Aug/2025:04:07:01 +0000] "GET /favicon.ico HTTP/1.1" 404 1776 "http://107.20.211.209/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" "-"

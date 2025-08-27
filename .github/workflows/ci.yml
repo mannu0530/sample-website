@@ -21,7 +21,7 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Build Docker image
-        run: docker build . -t sample-website:ci
+        run: docker build . -t $DOCKER_SAMPLE_WEBSITE_IMAGE_NAME:ci
 
       - name: (Optional) Run tests
         # If you have tests, run them here
@@ -33,9 +33,9 @@ jobs:
         with:
           registry: docker.io
           username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
       - name: Publish image
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: docker push sample-website:ci
+        run: docker push $DOCKER_SAMPLE_WEBSITE_IMAGE_NAME:ci
 

@@ -1,1 +1,2 @@
 2025/08/22 11:08:23 [error] 30#30: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/08/27 04:07:01 [error] 30#30: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 103.157.168.155, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "107.20.211.209", referrer: "http://107.20.211.209/"
